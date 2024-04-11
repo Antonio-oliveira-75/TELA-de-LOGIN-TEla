@@ -1,0 +1,23 @@
+.login-container{
+    position: relative;
+    height: 550px;
+    width: 780px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px #1d0085;
+    overflow: hidden;
+}
+
+@media (max-width:768px){
+    .login-container{
+        width: 75vw;
+        height: 75vh;
+    }
+}
+
+@media (max-width:480px){
+    .login-container{
+        width: 100vw;
+        height: 100vh;
+        box-shadow: none;
+    }
+}
